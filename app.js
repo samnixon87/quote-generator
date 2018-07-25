@@ -1,4 +1,4 @@
-  $(window).keypress(function(e) {
+$(window).keypress(function(e) {
       if (e.which === 32) {
         $("#quote").addClass("reset");
         $("#quote").removeClass("executed");
